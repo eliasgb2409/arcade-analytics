@@ -43,7 +43,7 @@ export function Games() {
 
     useEffect(() => {
         getGames();
-    }, [])
+    }, [setGames])
 
 
     /*
