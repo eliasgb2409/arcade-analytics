@@ -1,5 +1,21 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Arcade Analytics
+
+### Om nettsiden
+
+Dette prosjektet presenterer en dynamisk og interaktiv nettside designet for å fremheve trendene innen videospill, med spesielt fokus på de mest populære spillene, som bestemmes av Steam's "Top Sellers" liste. Ved å integrere både direkte data fra Steam's API og raffinert informasjon gjennom web-scraping, tilbyr denne plattformen en omfattende oversikt over de 100 mest solgte spillene, inkludert oppdatert statistikk om antall aktive spillere.
+
+### Datainnsamling og -behandling
+
+Et skreddersydd Python-script står for den innledende databehandlingen før dataen blir effektivt lagret i en Firebase database, klar for videre bruk.
+
+### Frontend Implementasjon
+
+Frontend-delen av prosjektet er utviklet med Next.js. Ved å hente data dynamisk fra vår Firebase database, vises den nyeste informasjonen om toppspillene gjennom et responsivt UI. Komponentene er implementert med TypeScript, mens designet er håndtert ved hjelp av Tailwind CSS.
+
+# Next.js instrukser:
+
 ## Getting Started
 
 First, run the development server:
